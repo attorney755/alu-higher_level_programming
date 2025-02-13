@@ -1,3 +1,5 @@
 #!/usr/bin/python3
 
-print("".join(chr(ord('a') + i) if i % 2 == 0 else chr(ord('A') + i) for i in range(25, -1, -1)))
+for i in range(122, 96, -1):
+    print("{}".format(chr(i) if i % 2 == 0 else chr(i - 32)), end="")
+    print("{}".format(chr(i) if (122 - i) % 2 == 0 else chr(i - 32)), end="")

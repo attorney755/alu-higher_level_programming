@@ -1,11 +1,12 @@
 #!/usr/bin/python3
-"""Checks object class"""
+"""
+Module
+Please refer to the documentation in the README.md
+"""
 
 
-def inherits_from(obj, a_class):
-    """Checks object class
-    Args:
-        - obj: object to class
-        - a_class: class to check
+class BaseGeometry:
     """
-    return isinstance(obj, a_class) and type(obj) != a_class
+    An empty class that defines a square
+    """
+    pass

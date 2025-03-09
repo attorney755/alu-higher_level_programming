@@ -1,2 +1,2 @@
--- Code To Show All Database
+-- Code To Show All Database By Black Devil
 SHOW DATABASES;
